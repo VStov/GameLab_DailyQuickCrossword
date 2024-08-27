@@ -27,7 +27,7 @@ test('GameLab_game start', async ({ page }) => {
   //Navigate to the game for the 23rd August by clicking appropriate button several times
   const canvasBox = '#canvas-box'
   const gameButton = page.frameLocator(canvasBox).locator('._29gcsfWZWwB6vRVJRcnvO4');
-  for (let i=0; i<4; i++) {
+  for (let i=0; i<5; i++) {
      await gameButton.first().click();
    }
 
